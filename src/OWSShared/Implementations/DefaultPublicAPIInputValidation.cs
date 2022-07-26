@@ -11,16 +11,16 @@ namespace OWSShared.Implementations
         public string ValidateCharacterName(string charName)
         {
             //Test for empty Character Names or Character Names that are shorter than the minimum Character name Length
-            if (String.IsNullOrEmpty(charName) || charName.Length < 4)
+            if (String.IsNullOrEmpty(charName) || charName.Length < 4  || charName.Length > 50)
             {
-                return "Please enter a valid Character Name that is at least 4 characters in length.";
+                return "Please enter a valid Character Name that is in range between 4 and 50 characters.";
             }
 
             //Test for Character Names that use characters other than Letters (uppercase and lowercase) and Numbers.
             Regex regex = new Regex(@"^\w+$");
             if (!regex.IsMatch(charName))
             {
-                return "Please enter a Character Name that only contains letters and numbers.";
+                return "Please enter a Character Name that only contains letters and numbers.  (A-Z & 0-9)";
             }
 
             return "";
