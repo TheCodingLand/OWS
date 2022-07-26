@@ -1,0 +1,42 @@
+{
+  "title": "Charabilitybars",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "charabilitybarid": {
+      "title": "Charabilitybarid",
+      "type": "integer"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    },
+    "abilitybarname": {
+      "title": "Abilitybarname",
+      "type": "string"
+    },
+    "maxnumberofslots": {
+      "title": "Maxnumberofslots",
+      "type": "integer"
+    },
+    "numberofunlockedslots": {
+      "title": "Numberofunlockedslots",
+      "type": "integer"
+    },
+    "charabilitybarscustomjson": {
+      "title": "Charabilitybarscustomjson",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "charabilitybarid",
+    "characterid",
+    "abilitybarname",
+    "maxnumberofslots",
+    "numberofunlockedslots"
+  ]
+}

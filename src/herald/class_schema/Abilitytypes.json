@@ -1,0 +1,23 @@
+{
+  "title": "Abilitytypes",
+  "type": "object",
+  "properties": {
+    "abilitytypeid": {
+      "title": "Abilitytypeid",
+      "type": "integer"
+    },
+    "abilitytypename": {
+      "title": "Abilitytypename",
+      "type": "string"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    }
+  },
+  "required": [
+    "abilitytypeid",
+    "abilitytypename",
+    "customerguid"
+  ]
+}

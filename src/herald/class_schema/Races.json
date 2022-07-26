@@ -1,0 +1,23 @@
+{
+  "title": "Races",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "raceid": {
+      "title": "Raceid",
+      "type": "integer"
+    },
+    "racename": {
+      "title": "Racename",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "raceid",
+    "racename"
+  ]
+}

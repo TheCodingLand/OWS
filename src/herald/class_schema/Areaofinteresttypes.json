@@ -1,0 +1,18 @@
+{
+  "title": "Areaofinteresttypes",
+  "type": "object",
+  "properties": {
+    "areaofinteresttypeid": {
+      "title": "Areaofinteresttypeid",
+      "type": "integer"
+    },
+    "areaofinteresttypedesc": {
+      "title": "Areaofinteresttypedesc",
+      "type": "string"
+    }
+  },
+  "required": [
+    "areaofinteresttypeid",
+    "areaofinteresttypedesc"
+  ]
+}

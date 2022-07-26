@@ -1,0 +1,37 @@
+{
+  "title": "Charabilitybarabilities",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "charabilitybarabilityid": {
+      "title": "Charabilitybarabilityid",
+      "type": "integer"
+    },
+    "charabilitybarid": {
+      "title": "Charabilitybarid",
+      "type": "integer"
+    },
+    "charhasabilitiesid": {
+      "title": "Charhasabilitiesid",
+      "type": "integer"
+    },
+    "inslotnumber": {
+      "title": "Inslotnumber",
+      "type": "integer"
+    },
+    "charabilitybarabilitiescustomjson": {
+      "title": "Charabilitybarabilitiescustomjson",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "charabilitybarabilityid",
+    "charabilitybarid",
+    "charhasabilitiesid",
+    "inslotnumber"
+  ]
+}

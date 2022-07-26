@@ -1,0 +1,43 @@
+{
+  "title": "Charinventory",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    },
+    "charinventoryid": {
+      "title": "Charinventoryid",
+      "type": "integer"
+    },
+    "inventoryname": {
+      "title": "Inventoryname",
+      "type": "string"
+    },
+    "inventorysize": {
+      "title": "Inventorysize",
+      "type": "integer"
+    },
+    "inventorywidth": {
+      "title": "Inventorywidth",
+      "type": "integer"
+    },
+    "inventoryheight": {
+      "title": "Inventoryheight",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "characterid",
+    "charinventoryid",
+    "inventoryname",
+    "inventorysize",
+    "inventorywidth",
+    "inventoryheight"
+  ]
+}

@@ -1,0 +1,5 @@
+pydantic
+sqlalchemy
+sqlacodegen
+datamodel-code-generator
+

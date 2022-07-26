@@ -1,0 +1,42 @@
+{
+  "title": "Chatmessages",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "chatmessageid": {
+      "title": "Chatmessageid",
+      "type": "integer"
+    },
+    "sentbycharid": {
+      "title": "Sentbycharid",
+      "type": "integer"
+    },
+    "chatmessage": {
+      "title": "Chatmessage",
+      "type": "string"
+    },
+    "messagedate": {
+      "title": "Messagedate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "senttocharid": {
+      "title": "Senttocharid",
+      "type": "integer"
+    },
+    "chatgroupid": {
+      "title": "Chatgroupid",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "chatmessageid",
+    "sentbycharid",
+    "chatmessage",
+    "messagedate"
+  ]
+}

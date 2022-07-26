@@ -1,0 +1,23 @@
+{
+  "title": "Charonmapinstance",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    },
+    "mapinstanceid": {
+      "title": "Mapinstanceid",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "characterid",
+    "mapinstanceid"
+  ]
+}

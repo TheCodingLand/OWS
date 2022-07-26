@@ -1,0 +1,66 @@
+{
+  "title": "Areasofinterest",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "areasofinterestguid": {
+      "title": "Areasofinterestguid",
+      "type": "string"
+    },
+    "mapzoneid": {
+      "title": "Mapzoneid",
+      "type": "integer"
+    },
+    "areaofinterestname": {
+      "title": "Areaofinterestname",
+      "type": "string"
+    },
+    "radius": {
+      "title": "Radius",
+      "type": "number"
+    },
+    "areaofinteresttype": {
+      "title": "Areaofinteresttype",
+      "type": "integer"
+    },
+    "x": {
+      "title": "X",
+      "type": "number"
+    },
+    "y": {
+      "title": "Y",
+      "type": "number"
+    },
+    "z": {
+      "title": "Z",
+      "type": "number"
+    },
+    "rx": {
+      "title": "Rx",
+      "type": "number"
+    },
+    "ry": {
+      "title": "Ry",
+      "type": "number"
+    },
+    "rz": {
+      "title": "Rz",
+      "type": "number"
+    },
+    "customdata": {
+      "title": "Customdata",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "areasofinterestguid",
+    "mapzoneid",
+    "areaofinterestname",
+    "radius",
+    "areaofinteresttype"
+  ]
+}

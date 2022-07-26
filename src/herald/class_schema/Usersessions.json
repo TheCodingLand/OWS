@@ -1,0 +1,33 @@
+{
+  "title": "Usersessions",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "usersessionguid": {
+      "title": "Usersessionguid",
+      "type": "string"
+    },
+    "userguid": {
+      "title": "Userguid",
+      "type": "string"
+    },
+    "logindate": {
+      "title": "Logindate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "selectedcharactername": {
+      "title": "Selectedcharactername",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "usersessionguid",
+    "userguid",
+    "logindate"
+  ]
+}

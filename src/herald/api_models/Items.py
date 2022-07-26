@@ -1,0 +1,36 @@
+from __future__ import annotations
+
+from pydantic import BaseModel, Field
+
+
+class Items(BaseModel):
+    customerguid: str = Field(None, title='Customerguid')
+    itemid: int = Field(None, title='Itemid')
+    itemtypeid: int = Field(None, title='Itemtypeid')
+    itemname: str = Field(None, title='Itemname')
+    itemweight: float = Field(None, title='Itemweight')
+    itemcanstack: bool = Field(None, title='Itemcanstack')
+    itemstacksize: int = Field(None, title='Itemstacksize')
+    itemisusable: bool = Field(None, title='Itemisusable')
+    itemisconsumedonuse: bool = Field(None, title='Itemisconsumedonuse')
+    customdata: str = Field(None, title='Customdata')
+    defaultnumberofuses: int = Field(None, title='Defaultnumberofuses')
+    itemvalue: int = Field(None, title='Itemvalue')
+    itemmesh: str = Field(None, title='Itemmesh')
+    meshtouseforpickup: str = Field(None, title='Meshtouseforpickup')
+    texturetouseforicon: str = Field(None, title='Texturetouseforicon')
+    premiumcurrencyprice: int = Field(None, title='Premiumcurrencyprice')
+    freecurrencyprice: int = Field(None, title='Freecurrencyprice')
+    itemtier: int = Field(None, title='Itemtier')
+    itemdescription: str = Field(None, title='Itemdescription')
+    itemcode: str = Field(None, title='Itemcode')
+    itemduration: int = Field(None, title='Itemduration')
+    canbedropped: bool = Field(None, title='Canbedropped')
+    canbedestroyed: bool = Field(None, title='Canbedestroyed')
+    weaponactorclass: str = Field(None, title='Weaponactorclass')
+    staticmesh: str = Field(None, title='Staticmesh')
+    skeletalmesh: str = Field(None, title='Skeletalmesh')
+    itemquality: int = Field(None, title='Itemquality')
+    iconslotwidth: int = Field(None, title='Iconslotwidth')
+    iconslotheight: int = Field(None, title='Iconslotheight')
+    itemmeshid: int = Field(None, title='Itemmeshid')

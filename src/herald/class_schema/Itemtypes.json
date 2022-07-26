@@ -1,0 +1,43 @@
+{
+  "title": "Itemtypes",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "itemtypeid": {
+      "title": "Itemtypeid",
+      "type": "integer"
+    },
+    "itemtypedesc": {
+      "title": "Itemtypedesc",
+      "type": "string"
+    },
+    "useritemtype": {
+      "title": "Useritemtype",
+      "type": "integer"
+    },
+    "equipmenttype": {
+      "title": "Equipmenttype",
+      "type": "integer"
+    },
+    "itemquality": {
+      "title": "Itemquality",
+      "type": "integer"
+    },
+    "equipmentslottype": {
+      "title": "Equipmentslottype",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "itemtypeid",
+    "itemtypedesc",
+    "useritemtype",
+    "equipmenttype",
+    "itemquality",
+    "equipmentslottype"
+  ]
+}

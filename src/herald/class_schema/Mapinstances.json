@@ -1,0 +1,63 @@
+{
+  "title": "Mapinstances",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "mapinstanceid": {
+      "title": "Mapinstanceid",
+      "type": "integer"
+    },
+    "worldserverid": {
+      "title": "Worldserverid",
+      "type": "integer"
+    },
+    "mapid": {
+      "title": "Mapid",
+      "type": "integer"
+    },
+    "port": {
+      "title": "Port",
+      "type": "integer"
+    },
+    "status": {
+      "title": "Status",
+      "type": "integer"
+    },
+    "numberofreportedplayers": {
+      "title": "Numberofreportedplayers",
+      "type": "integer"
+    },
+    "createdate": {
+      "title": "Createdate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "playergroupid": {
+      "title": "Playergroupid",
+      "type": "integer"
+    },
+    "lastupdatefromserver": {
+      "title": "Lastupdatefromserver",
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastserveremptydate": {
+      "title": "Lastserveremptydate",
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "customerguid",
+    "mapinstanceid",
+    "worldserverid",
+    "mapid",
+    "port",
+    "status",
+    "numberofreportedplayers",
+    "createdate"
+  ]
+}

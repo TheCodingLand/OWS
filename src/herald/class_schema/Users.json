@@ -1,0 +1,55 @@
+{
+  "title": "Users",
+  "type": "object",
+  "properties": {
+    "userguid": {
+      "title": "Userguid",
+      "type": "string"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "firstname": {
+      "title": "Firstname",
+      "type": "string"
+    },
+    "lastname": {
+      "title": "Lastname",
+      "type": "string"
+    },
+    "email": {
+      "title": "Email",
+      "type": "string"
+    },
+    "passwordhash": {
+      "title": "Passwordhash",
+      "type": "string"
+    },
+    "createdate": {
+      "title": "Createdate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastaccess": {
+      "title": "Lastaccess",
+      "type": "string",
+      "format": "date-time"
+    },
+    "role": {
+      "title": "Role",
+      "type": "string"
+    }
+  },
+  "required": [
+    "userguid",
+    "customerguid",
+    "firstname",
+    "lastname",
+    "email",
+    "passwordhash",
+    "createdate",
+    "lastaccess",
+    "role"
+  ]
+}

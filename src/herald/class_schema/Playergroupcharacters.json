@@ -1,0 +1,34 @@
+{
+  "title": "Playergroupcharacters",
+  "type": "object",
+  "properties": {
+    "playergroupid": {
+      "title": "Playergroupid",
+      "type": "integer"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    },
+    "dateadded": {
+      "title": "Dateadded",
+      "type": "string",
+      "format": "date-time"
+    },
+    "teamnumber": {
+      "title": "Teamnumber",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "playergroupid",
+    "customerguid",
+    "characterid",
+    "dateadded",
+    "teamnumber"
+  ]
+}

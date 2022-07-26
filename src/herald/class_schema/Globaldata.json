@@ -1,0 +1,23 @@
+{
+  "title": "Globaldata",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "globaldatakey": {
+      "title": "Globaldatakey",
+      "type": "string"
+    },
+    "globaldatavalue": {
+      "title": "Globaldatavalue",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "globaldatakey",
+    "globaldatavalue"
+  ]
+}

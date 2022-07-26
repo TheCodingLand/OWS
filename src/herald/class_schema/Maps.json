@@ -1,0 +1,73 @@
+{
+  "title": "Maps",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "mapid": {
+      "title": "Mapid",
+      "type": "integer"
+    },
+    "mapname": {
+      "title": "Mapname",
+      "type": "string"
+    },
+    "width": {
+      "title": "Width",
+      "type": "integer"
+    },
+    "height": {
+      "title": "Height",
+      "type": "integer"
+    },
+    "zonename": {
+      "title": "Zonename",
+      "type": "string"
+    },
+    "worldcompcontainsfilter": {
+      "title": "Worldcompcontainsfilter",
+      "type": "string"
+    },
+    "worldcomplistfilter": {
+      "title": "Worldcomplistfilter",
+      "type": "string"
+    },
+    "mapmode": {
+      "title": "Mapmode",
+      "type": "integer"
+    },
+    "softplayercap": {
+      "title": "Softplayercap",
+      "type": "integer"
+    },
+    "hardplayercap": {
+      "title": "Hardplayercap",
+      "type": "integer"
+    },
+    "minutestoshutdownafterempty": {
+      "title": "Minutestoshutdownafterempty",
+      "type": "integer"
+    },
+    "mapdata": {
+      "title": "Mapdata",
+      "type": "string",
+      "format": "binary"
+    }
+  },
+  "required": [
+    "customerguid",
+    "mapid",
+    "mapname",
+    "width",
+    "height",
+    "zonename",
+    "worldcompcontainsfilter",
+    "worldcomplistfilter",
+    "mapmode",
+    "softplayercap",
+    "hardplayercap",
+    "minutestoshutdownafterempty"
+  ]
+}

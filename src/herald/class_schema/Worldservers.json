@@ -1,0 +1,53 @@
+{
+  "title": "Worldservers",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "worldserverid": {
+      "title": "Worldserverid",
+      "type": "integer"
+    },
+    "serverip": {
+      "title": "Serverip",
+      "type": "string"
+    },
+    "maxnumberofinstances": {
+      "title": "Maxnumberofinstances",
+      "type": "integer"
+    },
+    "port": {
+      "title": "Port",
+      "type": "integer"
+    },
+    "serverstatus": {
+      "title": "Serverstatus",
+      "type": "integer"
+    },
+    "internalserverip": {
+      "title": "Internalserverip",
+      "type": "string"
+    },
+    "startingmapinstanceport": {
+      "title": "Startingmapinstanceport",
+      "type": "integer"
+    },
+    "activestarttime": {
+      "title": "Activestarttime",
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "customerguid",
+    "worldserverid",
+    "serverip",
+    "maxnumberofinstances",
+    "port",
+    "serverstatus",
+    "internalserverip",
+    "startingmapinstanceport"
+  ]
+}

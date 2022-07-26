@@ -1,0 +1,50 @@
+{
+  "title": "Abilities",
+  "type": "object",
+  "properties": {
+    "class_": {
+      "title": "Class ",
+      "type": "integer"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "abilityid": {
+      "title": "Abilityid",
+      "type": "integer"
+    },
+    "abilityname": {
+      "title": "Abilityname",
+      "type": "string"
+    },
+    "abilitytypeid": {
+      "title": "Abilitytypeid",
+      "type": "integer"
+    },
+    "texturetouseforicon": {
+      "title": "Texturetouseforicon",
+      "type": "string"
+    },
+    "gameplayabilityclassname": {
+      "title": "Gameplayabilityclassname",
+      "type": "string"
+    },
+    "race": {
+      "title": "Race",
+      "type": "integer"
+    },
+    "abilitycustomjson": {
+      "title": "Abilitycustomjson",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "abilityid",
+    "abilityname",
+    "abilitytypeid",
+    "texturetouseforicon",
+    "gameplayabilityclassname"
+  ]
+}

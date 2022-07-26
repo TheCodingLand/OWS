@@ -1,0 +1,26 @@
+{
+  "title": "Debuglog",
+  "type": "object",
+  "properties": {
+    "debuglogid": {
+      "title": "Debuglogid",
+      "type": "integer"
+    },
+    "debugdate": {
+      "title": "Debugdate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "debugdesc": {
+      "title": "Debugdesc",
+      "type": "string"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    }
+  },
+  "required": [
+    "debuglogid"
+  ]
+}

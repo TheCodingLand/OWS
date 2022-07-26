@@ -1,0 +1,43 @@
+{
+  "title": "Classinventory",
+  "type": "object",
+  "properties": {
+    "classinventoryid": {
+      "title": "Classinventoryid",
+      "type": "integer"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "classid": {
+      "title": "Classid",
+      "type": "integer"
+    },
+    "inventoryname": {
+      "title": "Inventoryname",
+      "type": "string"
+    },
+    "inventorysize": {
+      "title": "Inventorysize",
+      "type": "integer"
+    },
+    "inventorywidth": {
+      "title": "Inventorywidth",
+      "type": "integer"
+    },
+    "inventoryheight": {
+      "title": "Inventoryheight",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "classinventoryid",
+    "customerguid",
+    "classid",
+    "inventoryname",
+    "inventorysize",
+    "inventorywidth",
+    "inventoryheight"
+  ]
+}

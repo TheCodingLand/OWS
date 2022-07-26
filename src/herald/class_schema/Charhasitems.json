@@ -1,0 +1,38 @@
+{
+  "title": "Charhasitems",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    },
+    "charhasitemid": {
+      "title": "Charhasitemid",
+      "type": "integer"
+    },
+    "itemid": {
+      "title": "Itemid",
+      "type": "integer"
+    },
+    "quantity": {
+      "title": "Quantity",
+      "type": "integer"
+    },
+    "equipped": {
+      "title": "Equipped",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "customerguid",
+    "characterid",
+    "charhasitemid",
+    "itemid",
+    "quantity",
+    "equipped"
+  ]
+}

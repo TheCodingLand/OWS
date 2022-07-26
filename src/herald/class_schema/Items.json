@@ -1,0 +1,158 @@
+{
+  "title": "Items",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "itemid": {
+      "title": "Itemid",
+      "type": "integer"
+    },
+    "itemtypeid": {
+      "title": "Itemtypeid",
+      "type": "integer"
+    },
+    "itemname": {
+      "title": "Itemname",
+      "type": "string"
+    },
+    "itemweight": {
+      "title": "Itemweight",
+      "type": "number"
+    },
+    "itemcanstack": {
+      "title": "Itemcanstack",
+      "type": "boolean"
+    },
+    "itemstacksize": {
+      "title": "Itemstacksize",
+      "type": "integer"
+    },
+    "itemisusable": {
+      "title": "Itemisusable",
+      "type": "boolean"
+    },
+    "itemisconsumedonuse": {
+      "title": "Itemisconsumedonuse",
+      "type": "boolean"
+    },
+    "customdata": {
+      "title": "Customdata",
+      "type": "string"
+    },
+    "defaultnumberofuses": {
+      "title": "Defaultnumberofuses",
+      "type": "integer"
+    },
+    "itemvalue": {
+      "title": "Itemvalue",
+      "type": "integer"
+    },
+    "itemmesh": {
+      "title": "Itemmesh",
+      "type": "string"
+    },
+    "meshtouseforpickup": {
+      "title": "Meshtouseforpickup",
+      "type": "string"
+    },
+    "texturetouseforicon": {
+      "title": "Texturetouseforicon",
+      "type": "string"
+    },
+    "premiumcurrencyprice": {
+      "title": "Premiumcurrencyprice",
+      "type": "integer"
+    },
+    "freecurrencyprice": {
+      "title": "Freecurrencyprice",
+      "type": "integer"
+    },
+    "itemtier": {
+      "title": "Itemtier",
+      "type": "integer"
+    },
+    "itemdescription": {
+      "title": "Itemdescription",
+      "type": "string"
+    },
+    "itemcode": {
+      "title": "Itemcode",
+      "type": "string"
+    },
+    "itemduration": {
+      "title": "Itemduration",
+      "type": "integer"
+    },
+    "canbedropped": {
+      "title": "Canbedropped",
+      "type": "boolean"
+    },
+    "canbedestroyed": {
+      "title": "Canbedestroyed",
+      "type": "boolean"
+    },
+    "weaponactorclass": {
+      "title": "Weaponactorclass",
+      "type": "string"
+    },
+    "staticmesh": {
+      "title": "Staticmesh",
+      "type": "string"
+    },
+    "skeletalmesh": {
+      "title": "Skeletalmesh",
+      "type": "string"
+    },
+    "itemquality": {
+      "title": "Itemquality",
+      "type": "integer"
+    },
+    "iconslotwidth": {
+      "title": "Iconslotwidth",
+      "type": "integer"
+    },
+    "iconslotheight": {
+      "title": "Iconslotheight",
+      "type": "integer"
+    },
+    "itemmeshid": {
+      "title": "Itemmeshid",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "itemid",
+    "itemtypeid",
+    "itemname",
+    "itemweight",
+    "itemcanstack",
+    "itemstacksize",
+    "itemisusable",
+    "itemisconsumedonuse",
+    "customdata",
+    "defaultnumberofuses",
+    "itemvalue",
+    "itemmesh",
+    "meshtouseforpickup",
+    "texturetouseforicon",
+    "premiumcurrencyprice",
+    "freecurrencyprice",
+    "itemtier",
+    "itemdescription",
+    "itemcode",
+    "itemduration",
+    "canbedropped",
+    "canbedestroyed",
+    "weaponactorclass",
+    "staticmesh",
+    "skeletalmesh",
+    "itemquality",
+    "iconslotwidth",
+    "iconslotheight",
+    "itemmeshid"
+  ]
+}

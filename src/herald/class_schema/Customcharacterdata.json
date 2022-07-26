@@ -1,0 +1,33 @@
+{
+  "title": "Customcharacterdata",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "customcharacterdataid": {
+      "title": "Customcharacterdataid",
+      "type": "integer"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    },
+    "customfieldname": {
+      "title": "Customfieldname",
+      "type": "string"
+    },
+    "fieldvalue": {
+      "title": "Fieldvalue",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "customcharacterdataid",
+    "characterid",
+    "customfieldname",
+    "fieldvalue"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Charinventoryitems",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "charinventoryid": {
+      "title": "Charinventoryid",
+      "type": "integer"
+    },
+    "charinventoryitemid": {
+      "title": "Charinventoryitemid",
+      "type": "integer"
+    },
+    "itemid": {
+      "title": "Itemid",
+      "type": "integer"
+    },
+    "inslotnumber": {
+      "title": "Inslotnumber",
+      "type": "integer"
+    },
+    "quantity": {
+      "title": "Quantity",
+      "type": "integer"
+    },
+    "numberofusesleft": {
+      "title": "Numberofusesleft",
+      "type": "integer"
+    },
+    "condition": {
+      "title": "Condition",
+      "type": "integer"
+    },
+    "charinventoryitemguid": {
+      "title": "Charinventoryitemguid",
+      "type": "string"
+    },
+    "customdata": {
+      "title": "Customdata",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "charinventoryid",
+    "charinventoryitemid",
+    "itemid",
+    "inslotnumber",
+    "quantity",
+    "numberofusesleft",
+    "condition",
+    "charinventoryitemguid"
+  ]
+}

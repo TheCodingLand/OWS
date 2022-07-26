@@ -1,0 +1,77 @@
+{
+  "title": "Customers",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "customername": {
+      "title": "Customername",
+      "type": "string"
+    },
+    "customeremail": {
+      "title": "Customeremail",
+      "type": "string"
+    },
+    "enabledebuglogging": {
+      "title": "Enabledebuglogging",
+      "type": "boolean"
+    },
+    "enableautoloopback": {
+      "title": "Enableautoloopback",
+      "type": "boolean"
+    },
+    "developerpaid": {
+      "title": "Developerpaid",
+      "type": "boolean"
+    },
+    "stripecustomerid": {
+      "title": "Stripecustomerid",
+      "type": "string"
+    },
+    "supportunicode": {
+      "title": "Supportunicode",
+      "type": "boolean"
+    },
+    "createdate": {
+      "title": "Createdate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "noportforwarding": {
+      "title": "Noportforwarding",
+      "type": "boolean"
+    },
+    "customerphone": {
+      "title": "Customerphone",
+      "type": "string"
+    },
+    "customernotes": {
+      "title": "Customernotes",
+      "type": "string"
+    },
+    "publisherpaiddate": {
+      "title": "Publisherpaiddate",
+      "type": "string",
+      "format": "date-time"
+    },
+    "freetrialstarted": {
+      "title": "Freetrialstarted",
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "customerguid",
+    "customername",
+    "customeremail",
+    "enabledebuglogging",
+    "enableautoloopback",
+    "developerpaid",
+    "stripecustomerid",
+    "supportunicode",
+    "createdate",
+    "noportforwarding"
+  ]
+}

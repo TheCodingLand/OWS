@@ -1,0 +1,38 @@
+{
+  "title": "Playergroup",
+  "type": "object",
+  "properties": {
+    "playergroupid": {
+      "title": "Playergroupid",
+      "type": "integer"
+    },
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "playergroupname": {
+      "title": "Playergroupname",
+      "type": "string"
+    },
+    "playergrouptypeid": {
+      "title": "Playergrouptypeid",
+      "type": "integer"
+    },
+    "readystate": {
+      "title": "Readystate",
+      "type": "integer"
+    },
+    "createdate": {
+      "title": "Createdate",
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "playergroupid",
+    "customerguid",
+    "playergroupname",
+    "playergrouptypeid",
+    "readystate"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Playergrouptypes",
+  "type": "object",
+  "properties": {
+    "playergrouptypeid": {
+      "title": "Playergrouptypeid",
+      "type": "integer"
+    },
+    "playergrouptypedesc": {
+      "title": "Playergrouptypedesc",
+      "type": "string"
+    }
+  },
+  "required": [
+    "playergrouptypeid",
+    "playergrouptypedesc"
+  ]
+}

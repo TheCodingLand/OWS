@@ -1,0 +1,23 @@
+{
+  "title": "Chatgroupusers",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "chatgroupid": {
+      "title": "Chatgroupid",
+      "type": "integer"
+    },
+    "characterid": {
+      "title": "Characterid",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "chatgroupid",
+    "characterid"
+  ]
+}

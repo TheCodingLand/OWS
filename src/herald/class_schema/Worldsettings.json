@@ -1,0 +1,23 @@
+{
+  "title": "Worldsettings",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "worldsettingsid": {
+      "title": "Worldsettingsid",
+      "type": "integer"
+    },
+    "starttime": {
+      "title": "Starttime",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "worldsettingsid",
+    "starttime"
+  ]
+}

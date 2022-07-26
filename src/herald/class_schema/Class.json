@@ -1,0 +1,447 @@
+{
+  "title": "Class",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "classid": {
+      "title": "Classid",
+      "type": "integer"
+    },
+    "classname": {
+      "title": "Classname",
+      "type": "string"
+    },
+    "startingmapname": {
+      "title": "Startingmapname",
+      "type": "string"
+    },
+    "x": {
+      "title": "X",
+      "type": "number"
+    },
+    "y": {
+      "title": "Y",
+      "type": "number"
+    },
+    "z": {
+      "title": "Z",
+      "type": "number"
+    },
+    "perception": {
+      "title": "Perception",
+      "type": "number"
+    },
+    "acrobatics": {
+      "title": "Acrobatics",
+      "type": "number"
+    },
+    "climb": {
+      "title": "Climb",
+      "type": "number"
+    },
+    "stealth": {
+      "title": "Stealth",
+      "type": "number"
+    },
+    "rx": {
+      "title": "Rx",
+      "type": "number"
+    },
+    "ry": {
+      "title": "Ry",
+      "type": "number"
+    },
+    "rz": {
+      "title": "Rz",
+      "type": "number"
+    },
+    "spirit": {
+      "title": "Spirit",
+      "type": "number"
+    },
+    "magic": {
+      "title": "Magic",
+      "type": "number"
+    },
+    "teamnumber": {
+      "title": "Teamnumber",
+      "type": "integer"
+    },
+    "thirst": {
+      "title": "Thirst",
+      "type": "number"
+    },
+    "hunger": {
+      "title": "Hunger",
+      "type": "number"
+    },
+    "gold": {
+      "title": "Gold",
+      "type": "integer"
+    },
+    "score": {
+      "title": "Score",
+      "type": "integer"
+    },
+    "characterlevel": {
+      "title": "Characterlevel",
+      "type": "integer"
+    },
+    "gender": {
+      "title": "Gender",
+      "type": "integer"
+    },
+    "xp": {
+      "title": "Xp",
+      "type": "integer"
+    },
+    "hitdie": {
+      "title": "Hitdie",
+      "type": "integer"
+    },
+    "wounds": {
+      "title": "Wounds",
+      "type": "number"
+    },
+    "size": {
+      "title": "Size",
+      "type": "integer"
+    },
+    "weight": {
+      "title": "Weight",
+      "type": "number"
+    },
+    "maxhealth": {
+      "title": "Maxhealth",
+      "type": "number"
+    },
+    "health": {
+      "title": "Health",
+      "type": "number"
+    },
+    "healthregenrate": {
+      "title": "Healthregenrate",
+      "type": "number"
+    },
+    "maxmana": {
+      "title": "Maxmana",
+      "type": "number"
+    },
+    "mana": {
+      "title": "Mana",
+      "type": "number"
+    },
+    "manaregenrate": {
+      "title": "Manaregenrate",
+      "type": "number"
+    },
+    "maxenergy": {
+      "title": "Maxenergy",
+      "type": "number"
+    },
+    "energy": {
+      "title": "Energy",
+      "type": "number"
+    },
+    "energyregenrate": {
+      "title": "Energyregenrate",
+      "type": "number"
+    },
+    "maxfatigue": {
+      "title": "Maxfatigue",
+      "type": "number"
+    },
+    "fatigue": {
+      "title": "Fatigue",
+      "type": "number"
+    },
+    "fatigueregenrate": {
+      "title": "Fatigueregenrate",
+      "type": "number"
+    },
+    "maxstamina": {
+      "title": "Maxstamina",
+      "type": "number"
+    },
+    "stamina": {
+      "title": "Stamina",
+      "type": "number"
+    },
+    "staminaregenrate": {
+      "title": "Staminaregenrate",
+      "type": "number"
+    },
+    "maxendurance": {
+      "title": "Maxendurance",
+      "type": "number"
+    },
+    "endurance": {
+      "title": "Endurance",
+      "type": "number"
+    },
+    "enduranceregenrate": {
+      "title": "Enduranceregenrate",
+      "type": "number"
+    },
+    "strength": {
+      "title": "Strength",
+      "type": "number"
+    },
+    "dexterity": {
+      "title": "Dexterity",
+      "type": "number"
+    },
+    "constitution": {
+      "title": "Constitution",
+      "type": "number"
+    },
+    "intellect": {
+      "title": "Intellect",
+      "type": "number"
+    },
+    "wisdom": {
+      "title": "Wisdom",
+      "type": "number"
+    },
+    "charisma": {
+      "title": "Charisma",
+      "type": "number"
+    },
+    "agility": {
+      "title": "Agility",
+      "type": "number"
+    },
+    "fortitude": {
+      "title": "Fortitude",
+      "type": "number"
+    },
+    "reflex": {
+      "title": "Reflex",
+      "type": "number"
+    },
+    "willpower": {
+      "title": "Willpower",
+      "type": "number"
+    },
+    "baseattack": {
+      "title": "Baseattack",
+      "type": "number"
+    },
+    "baseattackbonus": {
+      "title": "Baseattackbonus",
+      "type": "number"
+    },
+    "attackpower": {
+      "title": "Attackpower",
+      "type": "number"
+    },
+    "attackspeed": {
+      "title": "Attackspeed",
+      "type": "number"
+    },
+    "critchance": {
+      "title": "Critchance",
+      "type": "number"
+    },
+    "critmultiplier": {
+      "title": "Critmultiplier",
+      "type": "number"
+    },
+    "haste": {
+      "title": "Haste",
+      "type": "number"
+    },
+    "spellpower": {
+      "title": "Spellpower",
+      "type": "number"
+    },
+    "spellpenetration": {
+      "title": "Spellpenetration",
+      "type": "number"
+    },
+    "defense": {
+      "title": "Defense",
+      "type": "number"
+    },
+    "dodge": {
+      "title": "Dodge",
+      "type": "number"
+    },
+    "parry": {
+      "title": "Parry",
+      "type": "number"
+    },
+    "avoidance": {
+      "title": "Avoidance",
+      "type": "number"
+    },
+    "versatility": {
+      "title": "Versatility",
+      "type": "number"
+    },
+    "multishot": {
+      "title": "Multishot",
+      "type": "number"
+    },
+    "initiative": {
+      "title": "Initiative",
+      "type": "number"
+    },
+    "naturalarmor": {
+      "title": "Naturalarmor",
+      "type": "number"
+    },
+    "physicalarmor": {
+      "title": "Physicalarmor",
+      "type": "number"
+    },
+    "bonusarmor": {
+      "title": "Bonusarmor",
+      "type": "number"
+    },
+    "forcearmor": {
+      "title": "Forcearmor",
+      "type": "number"
+    },
+    "magicarmor": {
+      "title": "Magicarmor",
+      "type": "number"
+    },
+    "resistance": {
+      "title": "Resistance",
+      "type": "number"
+    },
+    "reloadspeed": {
+      "title": "Reloadspeed",
+      "type": "number"
+    },
+    "range": {
+      "title": "Range",
+      "type": "number"
+    },
+    "speed": {
+      "title": "Speed",
+      "type": "number"
+    },
+    "silver": {
+      "title": "Silver",
+      "type": "integer"
+    },
+    "copper": {
+      "title": "Copper",
+      "type": "integer"
+    },
+    "freecurrency": {
+      "title": "Freecurrency",
+      "type": "integer"
+    },
+    "premiumcurrency": {
+      "title": "Premiumcurrency",
+      "type": "integer"
+    },
+    "fame": {
+      "title": "Fame",
+      "type": "number"
+    },
+    "alignment": {
+      "title": "Alignment",
+      "type": "number"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    }
+  },
+  "required": [
+    "customerguid",
+    "classid",
+    "classname",
+    "startingmapname",
+    "x",
+    "y",
+    "z",
+    "perception",
+    "acrobatics",
+    "climb",
+    "stealth",
+    "rx",
+    "ry",
+    "rz",
+    "spirit",
+    "magic",
+    "teamnumber",
+    "thirst",
+    "hunger",
+    "gold",
+    "score",
+    "characterlevel",
+    "gender",
+    "xp",
+    "hitdie",
+    "wounds",
+    "size",
+    "weight",
+    "maxhealth",
+    "health",
+    "healthregenrate",
+    "maxmana",
+    "mana",
+    "manaregenrate",
+    "maxenergy",
+    "energy",
+    "energyregenrate",
+    "maxfatigue",
+    "fatigue",
+    "fatigueregenrate",
+    "maxstamina",
+    "stamina",
+    "staminaregenrate",
+    "maxendurance",
+    "endurance",
+    "enduranceregenrate",
+    "strength",
+    "dexterity",
+    "constitution",
+    "intellect",
+    "wisdom",
+    "charisma",
+    "agility",
+    "fortitude",
+    "reflex",
+    "willpower",
+    "baseattack",
+    "baseattackbonus",
+    "attackpower",
+    "attackspeed",
+    "critchance",
+    "critmultiplier",
+    "haste",
+    "spellpower",
+    "spellpenetration",
+    "defense",
+    "dodge",
+    "parry",
+    "avoidance",
+    "versatility",
+    "multishot",
+    "initiative",
+    "naturalarmor",
+    "physicalarmor",
+    "bonusarmor",
+    "forcearmor",
+    "magicarmor",
+    "resistance",
+    "reloadspeed",
+    "range",
+    "speed",
+    "silver",
+    "copper",
+    "freecurrency",
+    "premiumcurrency",
+    "fame",
+    "alignment"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Usersinqueue",
+  "type": "object",
+  "properties": {
+    "customerguid": {
+      "title": "Customerguid",
+      "type": "string"
+    },
+    "userguid": {
+      "title": "Userguid",
+      "type": "string"
+    },
+    "queuename": {
+      "title": "Queuename",
+      "type": "string"
+    },
+    "joindt": {
+      "title": "Joindt",
+      "type": "string",
+      "format": "date-time"
+    },
+    "matchmakingscore": {
+      "title": "Matchmakingscore",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "customerguid",
+    "userguid",
+    "queuename",
+    "joindt",
+    "matchmakingscore"
+  ]
+}
