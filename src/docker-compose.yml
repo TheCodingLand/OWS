@@ -35,7 +35,18 @@ services:
     extends:
       file: .docker/databases.yml
       service: ${DATABASE}
-
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@daor.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    restart: unless-stopped
+  
   # Messaging Service
   messaging:
     extends:
@@ -57,10 +68,8 @@ services:
     ports:
       - "44302:80"
       - "44303:443"
-    depends_on:
-      - database
-      - messaging
-
+    
+  
   # OWS Instance Management 
   owsinstancemanagement:
     image: ${REGISTRY:-ows}/owsinstancemanagement:${PLATFORM:-linux}-${TAG:-latest}
@@ -124,3 +133,4 @@ volumes:
   setup:
   elasticsearch:
   database:
+  pgadmin:

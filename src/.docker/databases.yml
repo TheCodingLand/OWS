@@ -20,8 +20,7 @@ services:
 
   ### PostgreSQL Database
   postgres:
-    build:
-      context: postgres/
+    build: postgres/
     environment:
       - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
     ports:
@@ -30,6 +29,7 @@ services:
       - database:/var/lib/postgresql/data
     container_name: PostgreSQL
   
+
   ### MySql Database
   mysql:
     build:
